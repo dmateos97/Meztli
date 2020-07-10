@@ -5,9 +5,9 @@
 %%Irrotational flow (du/dr=dv/dx)
 
 %%This code uses the prandtl meyer expansion function to find the maximum
-%%angle by which a given exhaust flow can turn at the throat for a minmum
+%%angle by which a given exhaust flow can turn at the throat for a minimum
 %%length nozzle design. The method of characteristics is then used to
-%%paramterize the expansion fan and find the axisymmetric flow deflections
+%%parametrize the expansion fan and find the axisymmetric flow deflections
 %%and new slopes in order to find the optimized nozzle wall contour. This
 %%method delivers axial exit flow with uniform mach number for given Pc/Pe
 %%and specific heat ratio inputs. This code consists of 5 sections which
