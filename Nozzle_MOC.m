@@ -23,8 +23,8 @@ num = str2double(cell2mat(input(5,1)));
 % P_amb = 101325; %Ambient pressure at optimized altitude (sea level)
 % Pe = P_amb; %Nozzle exit pressure (Optimized for sea level)
 % gamma = 1.1639; %Gamma - Specific heat capacity ratio (cp/cv)
-% rt = 0.01647764*1000; %Throat radius (mm)
-% num = 44; %number of characteristics/iterations
+% rt = 16.47764; %Throat radius (mm)
+% num = 40; %number of characteristics/iterations
 
 
 %Non critical user defined inputs (Default for LOX-CH4 10atm LRE)
