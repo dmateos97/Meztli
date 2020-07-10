@@ -1,4 +1,4 @@
-# Meztli
+# Meztli - Minimum length bell nozzle design
 Method of characteristics nozzle optimization code:
 
 This code uses the Prandtl-Meyer expansion function to find the maximum
