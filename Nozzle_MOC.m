@@ -28,7 +28,7 @@ num = str2double(cell2mat(input(5,1)));
 
 
 %Non critical user defined inputs (Default for LOX-CH4 10atm LRE)
-T = 618; %Deisgn thrust
+T = 618; %Design thrust
 T_c = 3172.4465; %Adiabatic flame temperature (e.g RPA software/Test data)
 R = 428.1; %Exhaust gas constant (J/kgK)
 %hc = 0; he = 0; %ve2 = sqrt(2*(hc-he)); %check with ve to confirm
