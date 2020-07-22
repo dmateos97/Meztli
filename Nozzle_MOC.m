@@ -213,7 +213,7 @@ clearvars noz
 noz(:,1) = [0; x_Wallplot'; xWall];
 noz(:,2) = [rt; y_Wallplot'; yWall]; 
 
-epsilon = yWall/rt; %Expansion area ratio
+epsilon = (yWall^2)/(rt^2); %Expansion area ratio
 Cf = Cfv-(1/Pc_Pe_ratio)*epsilon;
 fprintf('Pressure ratio (Pc/Pe) = %2.4f \tVacuum thrust coeff. = %2.4f \t     Thrust coeff. = %2.4f \n', Pc_Pe_ratio,Cfv,Cf)
 fprintf('Area ratio (Ae/At) = %2.4f \t    Throat Temperature = %2.4f K \t Throat velocity = %2.4f m/s \n',epsilon,Tt,vt);
